@@ -41,8 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Contants.cs" />
+    <Compile Include="Extentions\LinqExtensions.cs" />
+    <Compile Include="Extentions\PredicateBuilder.cs" />
+    <Compile Include="Extentions\SerializationExtensions.cs" />
+    <Compile Include="Extentions\StringExtension.cs" />
+    <Compile Include="Extentions\TypeExtensions.cs" />
+    <Compile Include="KendoGridFilterParse.cs" />
+    <Compile Include="Models\NhanSu.cs" />
+    <Compile Include="Modules\ILogModuleServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThemSuaXoa.cs" />
+    <Compile Include="Utilities.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
